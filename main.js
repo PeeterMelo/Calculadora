@@ -12,7 +12,7 @@ buttons.forEach((btn) => {
             display.value = eval(display.value);
             /*pegar o valor do display e exibir no display*/
         } else if (btn.id === "ac") {
-            display.value = "0";
+            display.value = "";
         } else if (btn.id === "de") {
             display.value = display.value.slice(0, -1) /*0 para começar a contar do primeiro numero. valor negativo para quando apertar o botão BKSP apagar da direita */
         } else {
